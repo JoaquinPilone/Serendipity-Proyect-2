@@ -1,0 +1,139 @@
+.body {
+    background-color: #ecffea;
+}
+
+/* Logo */
+.logo {
+    width: 306px;
+    height: 66px;
+    margin: 30px;
+}
+
+.logo-box {
+    background-color: #d4ffcf;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navbar */
+
+.navbar {
+    display: grid;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+/* Bloques de informacion */
+
+.container-info {
+    display: grid;
+    grid-template-columns: 40rem 40rem 40rem;
+    grid-template-rows: 2fr;
+    justify-content: center;
+}
+
+.block-info {
+    background-color: #d4ffcf;
+    width: 3fr;
+    margin: 2rem 5rem 2rem 5rem;
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+}
+
+/*Transición y para el logo*/
+.logo-ani {
+    transition: all 1s;
+}
+
+/*Aca queria agregarle una animacion para que resaltara el logo pero al no ser png quedaba raro (modificar iconos y imagenes)*/
+.logo-ani:hover {
+    transform: scale(0.8) translate(50px, 20px);
+}
+
+/*Transición y animacion para los bloques de info*/
+.block-info-ani {
+    transition: all 1s;
+}
+
+.block-info-ani:hover {
+    transform: scale(1.1);
+    animation: changecolor 1s;
+}
+
+@keyframes changecolor {
+    10% {
+        background-color: #b2ef7c;
+    }
+}
+
+.container-inicio {
+    width: 75%;
+    float: left;
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+.carousel {
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+.aside-box {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.aside {
+    background-color: #d4ffcf;
+    border: 1px solid black;
+    display: grid;
+    justify-items: center;
+    margin-right: 2rem;
+}
+
+.producto-destacados {
+    width: 80%;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container-products {
+    width: 75%;
+    float: left;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.cuadro-texto {
+    background-color: blanchedalmond;
+    font-size: 32px;
+    margin: 4rem;
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+.footer {
+    display: block;
+    background-color: #b2ef7c;
+    border-top: 1px solid black;
+    margin-top: 38rem;
+}
+
+.footer-cute {
+    display: block;
+    background-color: #b2ef7c;
+    border-top: 1px solid black;
+    margin-top: 18rem;
+}
